@@ -1,0 +1,96 @@
+      CONCEITUAÇÃO METODOS:
+        "É uma porção de código (sub-rotina) que é disponibilizada por uma classe. Este é executado quando é feita uma requisição a ele. São responsáveis por definir e realizar um determinado comportamento."
+
+          OBS: Todo método ele deve ser criado dentro de uma classe.
+
+          CRIAÇÃO:
+
+              V: "public", "protected" ou "private"
+              T: concreto ou abstrato
+              M: "static" ou "final"
+              R: tipo de dado ou "void"
+              N: Nome que é fornecido ao método
+              P: Parâmetros que pode receber
+              E: exceções que pode lançar
+              C: código que possui ou vazio
+
+          Exemplos:
+
+              Public String getNome(){...} //Este metodo vai retornar um texto
+              Public double calcularTotalNota(){..}
+              public int verificarDistancia(int cordenada1, int cordenada2){...} // exemplo de como passar parametros
+              public abstract void executar(); //um metodo abstrato/corpo vazio
+              public void alterarFabricante(Fabricante fabricante){...}
+              public Relatorio gerarDadosAnaliticos(Cliente cliente, Lis<Compra> compra){...}
+
+              public static R N(P) {...}
+
+          Utilização:
+
+              Passa-se uma mensagem através de uma classe ou objeto.
+
+              nome_da_classe.nome_do_metodo(); ou nome_da_classe_nome_do_metodo(...);
+              nome_do_objeto.nome_do_metodo(); ou nome_do_objeto_nome_do_metodo(...);
+
+              Math.random(); ou Math.sqrt(4);
+
+              Math.random() = gera numero aleatorio, não tem parâmetro
+              Math.sqrt() = ele pega a raiz quadrada do numero dentro do paranteses/parametro
+
+              usuario.getEmail(); ou usuario.alterarEndereco(endereco);
+
+              Por padrão as classes sempre tem a primeira letra em maiusculo e os objetos em minusculo
+
+          Particularidades:
+
+            Assinatura: é a forma de identificar unicamente o método
+                ass = nome + parâmetros
+
+                Método: public double calcularTotalVenda(double precoItem1, double precoItem2, double precoItem3) {...}
+
+                Assinatura: calcularTotalVenda(double precoItem1, double precoItem2, doubleprecoItem3)
+
+            Construtor e Destrutor: são métodos especiais usados na Orientação a Objetos.
+
+            Mensagem: é o ato de solicitar ao método que o mesmo execute. Esta pode ser direcionada a um objeto ou a uma classe.
+
+            Passagem de parâmetros: por valor (cópia) / por referência (endereço)
+
+            exemplo:
+
+                int i = 10;
+                public void fazerAlgo(int i) {
+
+                    i = i + 10;
+                    System.out.println("Valor de i dentro: " + i);
+                }
+                System.out.println("Valor de i fora: " + i;);
+
+                //Tudo que eu faço dentro não reflete fora, dentro estara mostrando 20 e fora volta a ser 10.
+
+            Boas práticas
+
+                Nomes devem ser descritivos, mas curtos
+                Notação camelo: verificarSaldo(); executarTransferencia(...); existeDebito();
+                Deve possuir entre 80 e 120 linhas
+                Evite lista de parâmetros longas
+                Visibilidades adequadas
+
+SOBRECARGA:
+
+        Conceituação: "É a capacidade de definir métodos para diferentes contextos, mas preservando seu nome. "
+
+        Criação:
+
+            Alterar a assinatura do método:
+                Ass = nome + parâmetros
+
+                    converterParaInteiro(float f);
+                    converterParaInteiro(double d);
+                    converterParaInteiro(String s);
+                    converterParaInteiro(float f, RoundType rd);
+                    converterParaInteiro(double d, RoundType rd);
+                    converterParaInteiro(String s, RoundType rd);
+
+                    converterParaInteiro(RoundType rd, String s);
+                    converterParaInteiro();
