@@ -94,3 +94,17 @@ SOBRECARGA:
 
                     converterParaInteiro(RoundType rd, String s);
                     converterParaInteiro();
+
+TIPOS DE ESTRUTURAS DE REPETIÇÃO:
+
+        Estruturas condicionais: if-else, switch-case
+        Estruturas de repetição: for, while, do-while
+        Estruturas de exceções: try-catch-finally, throw
+
+        Estruturas condicionais:
+            A Estrutura Condicional possibilita a escolha de um grupo de ações e comportamentos a serem executadas quando determinadas condições são ou não satisfeitas. A Estrutura Condicional pode ser Simples ou Composta.
+
+        Condicional Simples:
+            Ocorre quando uma validação de execução de fluxo somente quando a condição for positiva, consideramos como uma estrutura Simples, exemplo:
+
+                inicio > sacar > contém saldo? > (se sim) Atualiza saldo || (se não) fim
