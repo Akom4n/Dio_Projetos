@@ -1,11 +1,13 @@
 package Estruturas;
 
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
 public class AboutMe {
 	
 	public static void main(String[] args) {
+		try {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
@@ -34,6 +36,9 @@ public class AboutMe {
 		
 		
 		sc.close();
+		}catch(InputMismatchException e){
+			System.out.println("Os campos idade e altura precisam ser numéricos e em formatação US");
+		}
 	}
 
 }
