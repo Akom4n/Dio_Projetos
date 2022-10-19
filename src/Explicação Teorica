@@ -232,9 +232,15 @@ COLLECTION
 				A implementação LinkedList implementa tanto a interface Queue quanto a List.
 						(OBS: "ArrayList deve ser usado onde mais operações de pesquisa são necessárias, e LinkedList deve ser usado onde mais operações de inserção e exclusão são necessárias.")
 						
-		Set
+		Set:
 			
 			java.util.Set
 			° Não permite elementos duplicados
-			° Não possui índice				
+			° Não possui índice	
+			
+		HashMap:
+		
+			java.util.map
+			° Elementos únicos (key) para cada valor (value)	
+					
 			 
