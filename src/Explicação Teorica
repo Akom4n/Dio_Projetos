@@ -260,6 +260,29 @@ COLLECTION
 			Streams API:
 				A Streams API traz uma nova opção para a manipulação de coleções em Java seguindo os princípios da programação funcional. Combinada com as expressões lambda, ela proporciona uma forma diferente de ligar com conjuntos de elementos, oferecendo ao desenvolvedor uma maneira simples e concisa de escrever código que resulta em facilidade de manutenção e paralelização sem efeitos indesejados em tempo de execução.
 				
+ORIENTAÇÃO A OBJETOS:
+
+			Classe:
+				É uma estrutura que abstrai um conjunto de objetos com características similares. Uma classe define o comportamento de seus objetos através de atributos. Em outros termos, uma classe descreve os serviços providos por seus objetos e quais informações eles podem armazenar.
 				
+			Atributo:
+				É o elemento de uma classe responsável por definir sua estrutura de dados. O conjunto destes será responsável por representar suas características e fará parte dos objetos criados a partir da classe.
+				
+			 	Atributo X Variável: 
+			 		A: O que é o próprio e peculiar a alguém ou a alguma coisa.
+			 		V: Sujeito a variações ou mudanças; que pode variar; inconstante, instável.
+			 		
+			Método:
+				É uma porção de código (sub-rotina) que é disponibilizada pela classe. Este é executado quando é feita uma requisição a ele.
+				Um método serve para identificar quais serviços, ações, que a classe oferece. Eles são responsáveis por definir e realizar um determinado comportamento.
+				
+				Sobrecarga:	Mudar a assinatura de acordo com a necessidade. 
+			
+			Objeto:
+				Um objeto é a representação de um conceito/entidade do mundo real, que pode ser física (bola, carro, árvore etc.) ou conceitual (viagem, estoque, compra etc.) e possui um significado bem definido para um determinado software. Para esse conceito/entidade, deve ser definida incialmente uma classe a partir da qual posteriormente serão instanciados objetos distintos.
+				
+			Mensagem:
+				É o processo de ativação de um método de um objeto. Isto ocorre quando uma requisição (chamada) a esse método é realizada, assim disparando a execução de seu comportamento descrito por sua classe. Pode também ser direcionada diretamente á classe, caso a requisição seja a um método estático.		
+			
 					
 			 
