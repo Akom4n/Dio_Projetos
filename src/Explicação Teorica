@@ -284,5 +284,8 @@ ORIENTAÇÃO A OBJETOS:
 			Mensagem:
 				É o processo de ativação de um método de um objeto. Isto ocorre quando uma requisição (chamada) a esse método é realizada, assim disparando a execução de seu comportamento descrito por sua classe. Pode também ser direcionada diretamente á classe, caso a requisição seja a um método estático.		
 			
-					
-			 
+			Herança: 
+				É o relacionamento entre classes em que uma classe chamada de subclasse (classe filha, classe derivada) é uma extensão, um subtipo, de outra classe chamada de superclasse (classe pai, classe mãe, classe base). Devido a isto, a subclasse consegue reaproveitar os atributos e métodos dela. Alem dos que venham a ser herdados, a subclasse pode definir seus próprios membros.		
+			 	
+			 	Tipos de Herança: Simples | Múltipla
+			 		Simples: A classe filha tem só uma classe mãe. 
